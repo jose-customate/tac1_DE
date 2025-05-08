@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backend verbinden - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate hilft Unternehmen, ihre Backend-Systeme mit unserer KI-gestützten Kundenservice-Lösung zu integrieren. Verbinden Sie sich mit Salesforce, Zendesk, Shopify und mehr.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Deutsch <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" class="active">Deutsch</a>
+          <a href="#">English</a>
+          <a href="#">Español</a>
+          <a href="#">Hrvatski</a>
+          <a href="#">Norsk</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integrationen</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Kanäle
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Preise</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Anmelden</a>
+              <a href="#" class="navbar-item btn-primary">Registrieren</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="terms-content">
+    <h1>Allgemeine Geschäftsbedingungen</h1>
+    
+    <h2>1. Einleitung</h2>
+    
+    <h3>1.1 Zweck der Allgemeinen Geschäftsbedingungen</h3>
+    <p>Diese Allgemeinen Geschäftsbedingungen (die "Vereinbarung") regeln die Nutzung des von Customated SSA UG (im Folgenden "Customate") angebotenen Dienstes und legen die Rechte und Pflichten der Nutzer und des Dienstleisters fest. Durch den Besuch unserer Website, die Teilnahme an Beratungen und den Zugriff auf oder die Nutzung unseres Dienstes erklären Sie sich damit einverstanden, an diese Bedingungen gebunden zu sein.</p>
+    
+    <h3>1.2 Anwendungsbereich</h3>
+    <p>Diese Bedingungen gelten für alle Nutzer, die auf unseren Dienst zugreifen, ihn nutzen oder mit ihm interagieren, sei es als Einzelpersonen, Unternehmen oder Dritte. Sie regeln alle Aktivitäten innerhalb unserer Plattform, einschließlich aller damit verbundenen Funktionen, Inhalte und Tools.</p>
+    
+    <h2>2. Benutzerregistrierung und Konten</h2>
+    
+    <h3>2.1 Kontoerstellung und Berechtigung</h3>
+    <p>Um unseren Dienst zu nutzen, muss der Kunde ein Konto erstellen, indem er genaue und vollständige Informationen angibt. Der Kunde muss mindestens 18 Jahre alt sein oder die rechtliche Fähigkeit besitzen, einen Vertrag abzuschließen. Durch die Registrierung bestätigt der Kunde seine Berechtigung zur Nutzung unseres Dienstes.</p>
+    
+    <h3>2.2 Verantwortlichkeiten des Nutzers</h3>
+    <p>Kunden sind für die Wahrung der Vertraulichkeit ihrer Kontoanmeldedaten, einschließlich ihres Benutzernamens und Passworts, verantwortlich. Der Kunde ist allein verantwortlich für die Richtigkeit, den Inhalt und die Rechtmäßigkeit aller Kundendaten. Der Kunde erklärt sich ausdrücklich damit einverstanden, die Dienste nicht zur Erfassung, Speicherung, Verarbeitung oder Übermittlung sensibler personenbezogener Daten zu verwenden. Der Kunde verpflichtet sich, den Dienst verantwortungsvoll und ethisch korrekt zu nutzen, in Übereinstimmung mit diesen Allgemeinen Geschäftsbedingungen und allen geltenden Gesetzen.</p>
+    
+    <h3>2.3 Kontosicherheit</h3>
+    <p>Der Kunde ist verpflichtet, geeignete Maßnahmen zum Schutz seiner Konten zu ergreifen. Der Kunde muss den Dienstanbieter unverzüglich benachrichtigen, wenn ein unbefugter Zugriff auf sein Konto vermutet wird.</p>
+    
+    <h2>3. Zahlung</h2>
+    
+    <h3>3.1 Abonnementpläne und Gebühren</h3>
+    <p>Der Kunde stimmt den Abonnementplänen und den damit verbundenen Gebühren zu, wie sie auf der Website des Dienstes angegeben oder in einem separaten Vertrag vereinbart und im entsprechenden Bestellformular festgelegt sind. Darüber hinaus kann der Kunde ein Guthaben haben, wenn er das im Basis-Abonnementplan festgelegte Nutzungslimit überschreitet. Jede Preisänderung wird im Voraus mitgeteilt und automatisch in Rechnung gestellt, es sei denn, der Kunde kündigt das Abonnement.</p>
+    
+    <h3>3.2 Zahlungsmethoden und -bedingungen</h3>
+    <p>Der Kunde kann für den Dienst mit folgenden Zahlungsmethoden bezahlen: Kreditkarten (mit einer 2%igen Preiserhöhung) und direkte Banküberweisungen. Zahlungen müssen im Voraus erfolgen, sofern im Vertrag nicht anders angegeben.</p>
+    <p>Wenn der Kunde die Dienste per Kreditkarte, Debitkarte oder einer anderen von Customate akzeptierten wiederkehrenden Zahlungsmethode erwirbt, gelten die folgenden Bedingungen: Wiederkehrende Abrechnung ist autorisiert, der Kunde zahlt alle Gebühren für Auslandstransaktionen und ist für jede Änderung der Zahlungsmethodeninformationen verantwortlich.</p>
+    <p>Ungültige Zahlung: Wenn eine Zahlung aufgrund des Ablaufs einer wiederkehrenden Zahlungsmethode, unzureichender Mittel oder aus anderen Gründen nicht erfolgreich abgewickelt wird, bleibt der Kunde für alle nicht an Customate übermittelten Beträge verantwortlich, und Customate kann nach eigenem Ermessen entweder (i) dem Kunden den fehlenden Betrag direkt in Rechnung stellen, (ii) die wiederkehrende Zahlungsmethode weiterhin belasten, sobald sie vom Kunden aktualisiert wurde (falls zutreffend), oder (iii) diese Vereinbarung kündigen.</p>
+    
+    <h3>3.3 Rechnungsstellung und Steuern</h3>
+    <p>Der Dienst stellt Rechnungen gemäß dem Abonnementplan des Nutzers aus. Customate wird dem Kunden die monatliche Abonnementgebühr im Voraus für jeden Abrechnungszeitraum in Rechnung stellen. Die Rechnung des Kunden enthält auch alle Gebühren für einmalige Dienstleistungen, die vom Kunden bestellt wurden. Alle Gebühren verstehen sich exklusive anwendbarer Steuern, die gemäß den lokalen Gesetzen und Vorschriften berechnet werden.</p>
+    
+    <h3>3.4 Zahlungsverzug und Konsequenzen</h3>
+    <p>Wenn der Kunde die Zahlung nicht fristgerecht leistet, behält sich Customate das Recht vor, den Zugang zum Dienst auszusetzen oder zu beenden.</p>
+    
+    <h3>3.5 Abonnementlaufzeit und Verlängerungen</h3>
+    <p><strong>a) Monatliche Abonnementlaufzeit.</strong> Bei einem Monatsabonnement verlängert sich die Abonnementlaufzeit automatisch monatlich. Jeder aufeinanderfolgende Vertragsmonat gilt als "Verlängerungszeitraum". Der Kunde kann ein Monatsabonnement jederzeit über die Seite "Einstellungen" im Dashboard kündigen, und das Wirksamkeitsdatum der Kündigung ist der letzte Tag des dann aktuellen Verlängerungszeitraums.</p>
+    <p><strong>b) Jährliche oder mehrjährige Abonnementlaufzeit.</strong> Bei einem Jahres- oder Mehrjahresabonnement ist die anfängliche Abonnementlaufzeit im Bestellformular festgelegt. Die Abonnementlaufzeit verlängert sich automatisch um weitere, aufeinanderfolgende Zeiträume von zwölf Monaten (jeweils ein "Verlängerungszeitraum"), es sei denn, eine der Parteien gibt der anderen eine schriftliche Mitteilung über die Absicht, nicht zu verlängern, mindestens dreißig (30) Tage vor Ablauf der anfänglichen Abonnementlaufzeit oder des dann aktuellen Verlängerungszeitraums. Der Kunde sendet eine schriftliche Mitteilung über die Absicht, nicht zu verlängern, an contact@customate.ai</p>
+    
+    <h2>4. Dienstnutzung</h2>
+    
+    <h3>4.1 Erlaubte Nutzung</h3>
+    <p>Der Kunde darf auf den Dienst zugreifen und ihn ausschließlich für seinen beabsichtigten Zweck nutzen. Die Nutzung und der Zugriff auf die Dienste sind nur berechtigten Nutzern gestattet. Dies ist eine Abonnementvereinbarung für den Zugriff auf und die Nutzung der Dienste. Der Kunde erkennt an, dass er nur ein begrenztes Recht auf die Dienste erhält und dass im Rahmen dieser Vereinbarung keine Eigentumsrechte an den Kunden übertragen werden. Die Nutzung muss den geltenden Gesetzen, vertraglichen Vereinbarungen und diesen Allgemeinen Geschäftsbedingungen entsprechen.</p>
+    
+    <h3>4.2 Verbotene Aktivitäten</h3>
+    <p>Dem Kunden und allen Nutzern ist streng untersagt:</p>
+    <ul>
+      <li>Die Nutzung des Dienstes für rechtswidrige, betrügerische oder täuschende Zwecke;</li>
+      <li>Manipulation oder Versuch, das KI-System über seine beabsichtigte Funktion hinaus auszunutzen.</li>
+      <li>Einsatz des Chatbots in einer Weise, die Hassreden, Gewalt oder illegale Inhalte fördert.</li>
+      <li>Überschreitung der Fair-Use-Richtlinien, die die Systemstabilität beeinträchtigen oder den Dienst für andere Nutzer verschlechtern können.</li>
+    </ul>
+    
+    <h3>4.3 Nutzungslimit</h3>
+    <p>Der Dienst kann Nutzungsbeschränkungen festlegen, darunter unter anderem die Anzahl der Interaktionen, API-Anfragen oder Chatbot-Sitzungen.</p>
+    
+    <h3>4.4 Feedback</h3>
+    <p>Der Kunde kann Customate jederzeit Feedback geben. Customate kann Feedback im Zusammenhang mit den Diensten und der Unternehmenstechnologie frei nutzen oder verwerten. Der Kunde gewährt Customate hiermit eine unbefristete, nicht-exklusive, übertragbare, unwiderrufliche, weltweite, gebührenfreie Lizenz (mit Rechten zur Unterlizenzierung), um das Feedback herzustellen, zu nutzen, zu verkaufen, zum Verkauf anzubieten, zu reproduzieren, zu modifizieren, zu verteilen, zur Verfügung zu stellen, öffentlich anzuzeigen und aufzuführen, offenzulegen und anderweitig kommerziell zu verwerten.</p>
+    
+    <h3>4.5 Verwendung von Kundenname und Logo</h3>
+    <p>Durch das Kundenverhältnis mit Customate gewährt der Kunde das Recht, seinen Firmennamen und sein Logo auf der Customate-Website, auf Landingpages und in Marketingmaterialien anzuzeigen, um unsere Geschäftsbeziehung anzuzeigen. Diese Verwendung dient nur zu Werbezwecken und impliziert keine Empfehlung. Der Kunde kann dies durch eine schriftliche Anfrage an jose@customate.ai abbestellen.</p>
+    
+    <h3>4.6 Eigentum an Website-Inhalten</h3>
+    <p>Alle Texte, Bilder, Logos, Markenzeichen und andere Inhalte auf der Website sind das geistige Eigentum des Dienstanbieters oder seiner Lizenzgeber, sofern nicht anders angegeben. Die nicht autorisierte Reproduktion, Verbreitung oder Modifikation jeglicher Materialien ist ohne vorherige schriftliche Zustimmung streng verboten.</p>
+    
+    <h2>5. Inhalte Dritter und Lizenzierung</h2>
+    
+    <h3>5.1 Verwendung von Inhalten Dritter</h3>
+    <p>Der Dienst kann Inhalte Dritter integrieren oder Zugang zu diesen gewähren, einschließlich Software, APIs, Datenquellen oder andere externe Dienste. Der Nutzer erkennt an, dass solche Inhalte Dritter den jeweiligen Allgemeinen Geschäftsbedingungen und Lizenzvereinbarungen der Anbieter unterliegen.</p>
+    
+    <h3>5.2 Lizenzierung und geistiges Eigentum</h3>
+    <p>Alle innerhalb des Dienstes verwendeten Inhalte Dritter bleiben Eigentum ihrer jeweiligen Eigentümer. Dem Kunden wird eine nicht-exklusive, nicht übertragbare Lizenz zur Nutzung solcher Inhalte ausschließlich im Rahmen der beabsichtigten Funktionalität des Dienstes gewährt. Jede unbefugte Reproduktion, Verbreitung oder Modifikation von Inhalten Dritter ist untersagt.</p>
+    
+    <h3>5.3 Haftungsausschluss</h3>
+    <p>Customate übernimmt keine Verantwortung für die Genauigkeit, Verfügbarkeit oder Leistung von Inhalten Dritter. Alle Störungen, Fehler oder Verluste, die aus Integrationen Dritter resultieren, liegen außerhalb der Kontrolle des Anbieters. Der Kunde und alle Nutzer stimmen zu, dass der Anbieter nicht für Schäden haftbar gemacht werden kann, die aus Inhalten Dritter entstehen, einschließlich Sicherheitslücken, Datenverletzungen oder Lizenzstreitigkeiten.</p>
+    
+    <h2>6. Haftung und Garantien</h2>
+    
+    <h3>6.1 Servicegarantien und -einschränkungen</h3>
+    <p>Der Dienst wird "wie er ist" und "wie verfügbar" bereitgestellt. Obwohl der Anbieter nach hoher Verfügbarkeit und Zuverlässigkeit strebt, werden keine Garantien für einen unterbrechungsfreien oder fehlerfreien Betrieb gegeben. Der Anbieter garantiert nicht, dass der Dienst alle spezifischen Anforderungen erfüllt oder ohne Störungen, Fehler oder Schwachstellen funktioniert. Customate übernimmt keine Verantwortung für Übertragungsfehler, unbefugten Zugriff Dritter oder andere Ursachen, die außerhalb der Kontrolle von Customate liegen.</p>
+    
+    <h3>6.2 Haftung für Fehler oder Ausfallzeiten</h3>
+    <p>Der Anbieter haftet nicht für vorübergehende Nichtverfügbarkeit, Fehler oder Dienstunterbrechungen aufgrund von Wartungsarbeiten, technischen Ausfällen, Cyberangriffen oder höherer Gewalt.</p>
+    
+    <h3>6.3 Weitere Haftungen von Customate</h3>
+    <p>Der Anbieter haftet nur für Schäden, die durch grobe Fahrlässigkeit oder vorsätzliches Fehlverhalten verursacht wurden, soweit dies nach geltendem Recht zulässig ist. Die Haftung für indirekte, zufällige oder Folgeschäden – wie entgangene Gewinne, Datenverlust oder Geschäftsunterbrechungen – ist ausgeschlossen. Der Kunde übernimmt die volle Verantwortung dafür, dass die Nutzung des Dienstes den geltenden Vorschriften und geschäftlichen Anforderungen entspricht.</p>
+    <p>Der Kunde wird keinen Anspruch, der Customate betrifft, ohne vorherige schriftliche Zustimmung von Customate beilegen, es sei denn, die Beilegung entlastet Customate vollständig und bedingungslos und verlangt nicht von Customate, einen Betrag zu zahlen, eine Maßnahme zu ergreifen oder eine Haftung zuzugeben.</p>
+    
+    <h3>6.4 Kundenhaftung</h3>
+    <p>Der Kunde wird Customate von und gegen alle Ansprüche, Kosten, Schäden, Verluste, Verbindlichkeiten und Ausgaben (einschließlich angemessener Anwaltsgebühren und Kosten) Dritter (einschließlich, ohne Einschränkung, Personen) entschädigen, verteidigen und schadlos halten, die aus oder im Zusammenhang mit Kundendaten, der Nutzung einer Messaging-App eines Drittanbieters durch den Kunden, einer Plattform eines Drittanbieters oder einer Verletzung oder angeblichen Verletzung durch den Kunden von Abschnitt 2.2 entstehen.</p>
+    
+    <h2>7. Kündigung und Stornierung</h2>
+    
+    <h3>7.1 Stornierung durch den Nutzer</h3>
+    <p>Der Kunde kann sein Abonnement oder Konto jederzeit kündigen, indem er die auf der Serviceplattform angegebenen Kündigungsverfahren befolgt. Die Kündigung wird am Ende des laufenden Abrechnungszeitraums wirksam, sofern nicht anders angegeben. Der Kunde bleibt für alle bis zum Kündigungsdatum angefallenen Gebühren verantwortlich.</p>
+    
+    <h3>7.2 Kündigung durch den Anbieter</h3>
+    <p>Der Anbieter behält sich das Recht vor, den Zugang des Nutzers zum Dienst im Falle eines Verstoßes gegen diese Allgemeinen Geschäftsbedingungen zu kündigen oder auszusetzen, einschließlich, aber nicht beschränkt auf unbefugte Nutzung, Nichtzahlung fälliger Zahlungen oder Verletzung geltender Gesetze, oder aus einem anderen Grund, allein nach Ermessen des Unternehmens. Der Anbieter kann, wenn möglich, eine vorherige Benachrichtigung geben, aber eine sofortige Kündigung kann bei schwerwiegenden Verstößen erfolgen.</p>
+    
+    <h3>7.3 Folgen der Kündigung</h3>
+    <p>Bei Kündigung oder Stornierung des Kundenkontos wird der Zugang zum Dienst widerrufen, und alle mit dem Konto verbundenen Daten können gelöscht werden, vorbehaltlich gesetzlicher oder vertraglicher Anforderungen zur Datenspeicherung. Der Kunde bleibt für alle ausstehenden Zahlungen zum Zeitpunkt der Kündigung verantwortlich.</p>
+    
+    <h2>8. Andere Elemente</h2>
+    <p>Die Richtlinien zu Datenschutz, Sicherheit und dem rechtlichen Status von Customate werden auf der Website veröffentlicht: www.customate.ai</p>
+    
+    <h2>9. Änderungen der Bedingungen</h2>
+    
+    <h3>9.1 Recht zur Änderung der Bedingungen</h3>
+    <p>Der Anbieter behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern, zu aktualisieren oder zu ergänzen. Diese Änderungen können vorgenommen werden, um Gesetzesänderungen, Dienstverbesserungen oder andere betriebliche Gründe widerzuspiegeln.</p>
+    
+    <h3>9.2 Benachrichtigung über Änderungen</h3>
+    <p>Der Kunde wird über alle wesentlichen Änderungen der Allgemeinen Geschäftsbedingungen per E-Mail oder durch eine Mitteilung auf der Serviceplattform informiert. Benachrichtigungen werden nach Möglichkeit im Voraus gesendet, und alle Aktualisierungen werden mit dem Datum des Inkrafttretens der Änderungen deutlich gekennzeichnet.</p>
+    
+    <h3>9.3 Benutzerakzeptanz von Änderungen</h3>
+    <p>Die fortgesetzte Nutzung des Dienstes nach der Benachrichtigung über Änderungen gilt als Annahme der aktualisierten Allgemeinen Geschäftsbedingungen durch den Nutzer. Wenn der Kunde mit den Änderungen nicht einverstanden ist, kann er sein Konto wie in Abschnitt 7 (Kündigung und Stornierung) vorgesehen kündigen.</p>
+    
+    <h2>10. Streitbeilegung und geltendes Recht</h2>
+    
+    <h3>10.1 Beschwerdeverfahren</h3>
+    <p>Im Falle eines Streits oder einer Beschwerde sollte der Nutzer zunächst den Kundensupport des Anbieters kontaktieren, um zu versuchen, das Problem gütlich zu lösen. Der Anbieter wird angemessene Anstrengungen unternehmen, um die Anliegen des Nutzers umgehend und in Übereinstimmung mit den geltenden Gesetzen zu bearbeiten. Wenn der Streit nicht durch direkte Kommunikation gelöst werden kann, kann der Kunde gemäß den geltenden Vorschriften eine Mediation oder alternative Streitbeilegung (ADR) in Anspruch nehmen.</p>
+    
+    <h3>10.2 Geltendes Recht</h3>
+    <p>Diese Allgemeinen Geschäftsbedingungen unterliegen dem Recht der Bundesrepublik Deutschland und werden in Übereinstimmung mit diesem ausgelegt, ohne Berücksichtigung seiner Kollisionsnormen.</p>
+    
+    <h3>10.3 Gerichtsstand</h3>
+    <p>Alle Streitigkeiten, die nicht durch informelle Kommunikation oder ADR gelöst werden können, unterliegen der ausschließlichen Zuständigkeit der zuständigen Gerichte in Deutschland.</p>
+    
+    <h2>11. Fehlen einer Diverses-Klausel</h2>
+    <p>Diese Vereinbarung enthält keinen separaten Abschnitt "Diverses", da solche Bestimmungen von Natur aus in jedem Vertrag enthalten sind. Die Grundsätze, die typischerweise unter einer Diverses-Klausel abgedeckt werden – wie Salvatorische Klausel, Verzicht und Durchsetzbarkeit – sind grundlegende Aspekte der vertraglichen Auslegung und Anwendung, was ihre ausdrückliche Wiederholung unnötig macht. Ihr Fehlen mindert nicht ihre Gültigkeit oder Wirkung, sondern erkennt vielmehr die Selbstgenügsamkeit des Vertrags als Rechtsinstrument an.</p>
+    
+    <h2>12. Kontaktinformationen</h2>
+    
+    <h3>12.1 Support und Anfragen</h3>
+    <p>Bei Fragen, Bedenken oder Support-Anfragen kann der Nutzer unser Kundendienstteam über die folgenden Kanäle kontaktieren:</p>
+    <ul>
+      <li>E-Mail: admin (a,t) customate.ai </li>
+      <li>Customate Chat: Verfügbar auf der Serviceplattform</li>
+    </ul>
+    <p>Der Support ist während der Geschäftszeiten verfügbar, und wir bemühen uns, Anfragen so schnell wie möglich zu beantworten.</p>
+    
+    <h3>12.2 Meldung von Problemen</h3>
+    <p>Wenn der Nutzer technische Probleme, Sicherheitsbedenken oder Verstöße gegen die Allgemeinen Geschäftsbedingungen feststellt, sollte er diese dem Anbieter umgehend melden. Berichte können eingereicht werden über:</p>
+    <ul>
+      <li>E-Mail: admin (a,t) customate.ai </li>
+    </ul>
+    <p>Der Anbieter wird alle Berichte untersuchen und entsprechende Maßnahmen basierend auf der Schwere und Art des Problems ergreifen.</p>
+  </section>
+</main>
+
+  </body>
+</html>
